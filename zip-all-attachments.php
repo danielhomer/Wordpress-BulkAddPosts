@@ -224,8 +224,6 @@ class Zip_All_Post_Attachments
             'post_status' => 'publish'
             ));
 
-        print_r('path: ' . $zip_path);
-
         if ( $attachments ) {
             foreach ( $attachments as $attachment ) {
 
